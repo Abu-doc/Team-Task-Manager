@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // 🌐 Create unified custom Axios deployment instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  // 💡 REPLACE THIS URL WITH YOUR ACTUAL GENERATED RAILWAY BACKEND LINK FROM YOUR DASHBOARD
+  baseURL: 'https://team-task-manager-production.up.railway.app/api', 
   withCredentials: true,
 });
 
