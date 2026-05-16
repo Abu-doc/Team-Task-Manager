@@ -3,7 +3,7 @@ import axios from 'axios';
 // 🌐 Create unified custom Axios deployment instance
 const api = axios.create({
   // 💡 REPLACE THIS URL WITH YOUR ACTUAL GENERATED RAILWAY BACKEND LINK FROM YOUR DASHBOARD
-  baseURL: 'https://team-task-manager-production.up.railway.app/api', 
+  baseURL: 'team-task-manager-production-42e8.up.railway.app', 
   withCredentials: true,
 });
 
