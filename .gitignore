@@ -1,0 +1,17 @@
+#  Dependency Folders (These are huge and can be recreated with 'npm install')
+node_modules/
+client/node_modules/
+server/node_modules/
+
+#  Environment Secrets (Never let these leak to GitHub!)
+.env
+server/.env
+*.env
+
+# 🚀 Production Builds (Vite bundles these dynamically on deployment)
+dist/
+client/dist/
+
+# git add .gitignore System Files
+.DS_Store
+Thumbs.db
